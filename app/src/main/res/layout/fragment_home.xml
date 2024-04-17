@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/zdjecie"
+        android:src="@drawable/aerial"
+        android:layout_width="400dp"
+        android:layout_height="230dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/nazwa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zdjecie"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:text="ROUTE APP"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HomePage"
+        android:gravity="center"
+        android:layout_below="@+id/nazwa"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

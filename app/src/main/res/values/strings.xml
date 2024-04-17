@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AplikacjeMobilne</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="HomePage">Witaj! Znajdujesz się w aplikacji będącej listą szlaków turystycznych.
+            Na prawo od tej zakładki, możesz zobaczyć 2 kolejne, w których szlaki zostały podzielone
+            na kategorie według trudności. Po kliknięciu na wybrany szlak, możesz zobaczyć związane
+            z nim szczegóły czyli nazwę szlaku, jego opis, zdjęcie przedstawiające jego okolicę,
+            średni czas potrzebny na przejście wybranego szlaku a także stoper aby zmierzyć swój czas.
+            Miłej zabawy!</string>
+</resources>
